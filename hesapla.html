@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SinavPuanim.Com LGS Puan Hesaplama</title>
+  <link rel="stylesheet" type="text/css" href="lgs.css">
+</head>
+<body>
+
+
+
+<section class="orta col-xl-7 col-lg-8 col-md-8">
+  <div class="govdebaslangic col-md-12">
+    <div class="alert alert-danger" role="alert">
+  <h2>SinavPuanim.Com LGS Puan Hesaplama</h2>
+</div>
+
+
+ <div id="tekilyazi" class="col-md-12 tekilyazi">
+  
+  <article class="yazi-tek">
+    <div class="tekbaslik"><center><h1>SinavPuanim.Com LGS Puan Hesaplama</h1></center></div>
+    <div class="metin ">
+      <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb yazi-kalin center m-0">Ders Adı</div>
+          <div class="col-md-7 m-0 p-0 yazi-kalin"><div class="row m-0 p-0"><div class="col-4  dogrub">Doğru</div><div class="col-4 yanlisb">Yanlış</div><div class="col-4 netb">Net</div></div></div>
+      </div>
+           <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb center m-0">Türkçe</div>
+          <div class="col-md-7 m-0 p-0"><div class="row m-0 p-0 satirli"><div class="col-4 dogrub"><input placeholder="20" type="number" id="trd" name="trd" min="0" max="20" step="1" pattern="[0-9]"></div><div class="col-4 yanlisb"><input type="number" id="try" name="try" min="0" max="20" step="1" pattern="[0-9]"></div><div class="col-4 netb"><input type="number" id="trn" name="trn" readonly="true"></div></div></div>
+      </div>
+          <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb center m-0">T.C. İnkılap Tarihi</div>
+          <div class="col-md-7 m-0 p-0"><div class="row m-0 p-0 satirli"><div class="col-4 dogrub"><input placeholder="10" type="number" id="inkd" name="inkd"  min="0" max="10" step="1" pattern="[0-9]"></div><div class="col-4 yanlisb"><input type="number" id="inky" name="inky" min="0" max="10" step="1" pattern="[0-9]"></div><div class="col-4 netb"><input type="number" id="inkn" name="inkn" readonly="true"></div></div></div>
+      </div>
+       <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb center m-0">Din Kültürü</div>
+          <div class="col-md-7 m-0 p-0"><div class="row m-0 p-0 satirli"><div class="col-4 dogrub"><input placeholder="10"  type="number" id="dind" name="dind"  min="0" max="10" step="1" pattern="[0-9]"></div><div class="col-4 yanlisb"><input type="number" id="diny" name="diny" min="0" max="10" step="1" pattern="[0-9]"></div><div class="col-4 netb"><input type="number" id="dinn" name="dinn" readonly="true"></div></div></div>
+      </div>
+       <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb center m-0">İngilizce</div>
+          <div class="col-md-7 m-0 p-0"><div class="row m-0 p-0 satirli"><div class="col-4 dogrub"><input type="number" placeholder="10"  id="ingd" name="ingd"  min="0" max="10" step="1" pattern="[0-9]"></div><div class="col-4 yanlisb"><input type="number" id="ingy" name="ingy" min="0" max="10" step="1" pattern="[0-9]"></div><div class="col-4 netb"><input type="number" id="ingn" name="ingn" readonly="true"></div></div></div>
+      </div>
+       <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb center m-0">Matematik</div>
+          <div class="col-md-7 m-0 p-0"><div class="row m-0 p-0 satirli"><div class="col-4 dogrub"><input placeholder="20"  type="number" id="matd" name="matd"  min="0" max="20" step="1" pattern="[0-9]"></div><div class="col-4 yanlisb"><input type="number" id="maty" name="maty" min="0" max="20" step="1" pattern="[0-9]"></div><div class="col-4 netb"><input type="number" id="matn" name="matn" readonly="true"></div></div></div>
+      </div>
+       <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb center m-0">Fen Bilimleri</div>
+          <div class="col-md-7 m-0 p-0"><div class="row m-0 p-0 satirli"><div class="col-4 dogrub"><input placeholder="20"  type="number" id="fend" name="fend"  min="0" max="20" step="1" pattern="[0-9]"></div><div class="col-4 yanlisb"><input type="number" id="feny" name="feny" min="0" max="10" step="1" pattern="[0-9]"></div><div class="col-4 netb"><input type="number" id="fenn" name="fenn" readonly="true"></div></div></div>
+      </div>
+       <div class="row m-0 p-0 ilkrow">
+          <div class="col-md-5 dersb center m-0">Toplam</div>
+          <div class="col-md-7 m-0 p-0 hideme"><div class="row m-0 p-0 satirli"><div class="col-4 dogrub"><input type="number" id="tod" name="tod" readonly="true"></div><div class="col-4 yanlisb"><input type="number" id="toy" name="toy" readonly="true"></div><div class="col-4 netb"><input type="number" id="ton" name="ton" readonly="true"></div></div></div>
+      </div>
+       <div class="row m-0 p-0 ilkrow sonsatir">
+        <div class="col-md-8 toplampuan m-0 p-2"><i class="ri-git-repository-commits-fill"></i><span>Sınav Puanı: </span><input type="number" name="toplampuanim" placeholder="500" id="toplampuanim" readonly="true"></div><div class="col-md-4 sifirlabutonu m-0"><button name="sifirlabutonum" id="sifirlabutonum"><i class="ri-restart-fill"></i>
+<span>Sıfırla</span></button></div>
+       </div>
+    
+  </article>
+  <div id="paylas" class="bottometa">
+    <div class="sosyalpaylasim"><ul><li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_the_permalink(); ?>"
+                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Facebook'ta Paylaş"><i class="ri-facebook-fill"></i></a></li>
+    <li><a class="twitter" href="http://twitter.com/share?text=<?php echo urlencode(get_the_title()) ?>&url=<?php echo get_the_permalink(); ?>"
+                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Twitter'da Paylaş"><i class="ri-twitter-fill"></i></a></li>
+    <li><a class="mail" href="mailto:?subject=?php echo urlencode(get_the_title()) ?>&body=<?php echo get_the_permalink(); ?>" title="Mail Gönder"><i class="ri-mail-add-fill"></i>
+</a></li> 
+    </ul></div>
+    <div class="urlgoster"> <input type="text" name="shortlink" placeholder="<?php echo get_the_permalink(); ?>" id="copy-link" readonly>
+                            <span class="copy" data-clipboard-target="#copy-link" ><i class="ri-clipboard-line"></i></span></div>
+  </div>
+ </div>  
+
+<?php } ?>
+</section>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="lgs.js"></script>
+</body>
+</html>
